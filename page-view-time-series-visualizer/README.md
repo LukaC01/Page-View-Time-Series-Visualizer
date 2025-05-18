@@ -1,3 +1,23 @@
 # Page View Time Series Visualizer
 
-This is the boilerplate for the Page View Time Series Visualizer project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/page-view-time-series-visualizer
+This project visualizes daily page views over a multi-year period to uncover trends and seasonal patterns.
+
+## 📊 Features
+
+- Cleans page view data by removing outliers
+- Generates:
+  - Line plot of daily views
+  - Bar plot of monthly averages grouped by year
+  - Box plots showing year-wise and month-wise distributions
+
+## 🛠 Tools Used
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+## 📁 Files
+
+- `time_series_visualizer.py` – Script for data analysis and plotting
+- `fcc-forum-pageviews.csv` – Dataset
